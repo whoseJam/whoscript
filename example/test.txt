@@ -1,0 +1,14 @@
+
+fun add(x,y){
+    return x+y;
+}
+
+for(var i=1;;i=i+1){
+    if(i==10){
+        var value=add(i,i);
+        print "value=",value,"\n";
+        continue;
+    }
+    print "i=",i,"\n";
+    if(i>15)break;
+}

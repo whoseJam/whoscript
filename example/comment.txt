@@ -1,0 +1,7 @@
+// use "//" to let interpreter to ignore a block of text
+
+var a=// some information
+5;
+
+print// some information (I think nobody would write like this)
+a,"\n";

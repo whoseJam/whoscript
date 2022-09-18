@@ -1,0 +1,6 @@
+print "this is print\n";	//print a String
+
+print "number=",5,"\n";		//print at one step
+
+var a=1,b=2;
+print a+b,"\n";				//print an expression

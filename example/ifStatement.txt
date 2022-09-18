@@ -1,0 +1,12 @@
+var flag=true;
+var a;
+
+if(flag){
+	print "flag is true\n";
+}
+else if(a==nil){
+	print "an variable declared but not assigned is nil\n";
+}
+else{
+	print "flag is false\n";print "a=",a," b=",b,"\n";
+}
